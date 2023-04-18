@@ -40,16 +40,17 @@ public class Employee {
     }
 
     public String calculationNetSalary(){
-        double a, tax;
+        double a;
         DecimalFormat df = new DecimalFormat("#,###.#");
 
         a = this.Salary - this.Salary * 0.105;
-        tax = (this.Salary - 11000000) * 0.05;
+
 
         if (a <= 11000000){
             NetSalary = a;
         } else {
-            NetSalary = a;
+            double tax = (this.Salary - 11000000) * 0.05;
+            NetSalary = a - tax;
         }
 
         return df.format(NetSalary);
