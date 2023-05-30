@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525457572505",
+    "firebase_url": "https://mobile-labs-f50ef-default-rtdb.firebaseio.com",
+    "project_id": "mobile-labs-f50ef",
+    "storage_bucket": "mobile-labs-f50ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525457572505:android:107cc8d660419c67ca2e08",
+        "android_client_info": {
+          "package_name": "com.example.mobile_lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525457572505-nvrjpplerehs84rnl53er5184o3rfbob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6MRiO5NwH2KRhO8ccZ_ofJmbmTM1LrtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525457572505-nvrjpplerehs84rnl53er5184o3rfbob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
